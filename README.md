@@ -12,34 +12,3 @@ Since the health data was collected at the census tract level and the environmen
  
 No correlation was found between the health outcomes and any one of the environmental risk factors. For example, Figure 1 shows a heat map of COPD. Only the lead paint indicator (PRE1960PCT) is greater than 0.10 positively correlated with the prevalence of COPD; however, this correlation is very, very small. Diesel fuel particulates (DSLPM), proximity to and volume of traffic (PTRAF), and proximity to treatment storage and disposal facilities (PTSDF) are all less 
 
-Notebooks:
-
-01.data_wrangling
-
-02.EDA
-
-03.Pre-processing_CHD
-
-04.Pre-processing_COPD
-
-05.Pre-processing_asthma
-
-06.Pre-processing_cancer
-
-07.Pre-processing_kidney
-
-08.Pre-processing_stroke
-
-09.Modeling_CHD
-
-10.Modeling_COPD
-
-11.Modeling_asthma
-
-12.Modeling_cancer
-
-13.Modeling_kidney
-
-14.Modeling_stroke
-
-
