@@ -54,14 +54,14 @@ The following models were used to predict each health outcome based on the envir
 + Gradient boosting
 + Extreme gradient boosting
 + Light gradient boosting machine
-+ Support vector Machine
++ Support vector machine
 
 Hyperparameters were optimized using randomized and Bayesian searching.
 
 Below is a graph of the predicted values versus actual values for COPD using random forest with hyperameters tuned with a randomized search.
 
 <p align="center">
-  <img src="reports/figures/COPD_graph_best_model.png" width="500">
+  <img src="reports/figures/COPD_graph_best_model.png" width="600">
 </p>
 
 ## 6. Metrics
@@ -69,5 +69,19 @@ Below is a graph of the predicted values versus actual values for COPD using ran
 The table below shows the metrics for the best model for each health outcome.
 
 <p align="center">
-  <img src="reports/figures/metrics.jpg" width="400">
+  <img src="reports/figures/metrics.png" width="700">
 </p>
+
+
+## 7. Conclusion
+None of the models used in this research were good predictors of any of the health outcomes.
+
+Likely reasons:
++ The health outcome data used were self-reported.
++ While certain environmental factors are known to increase one’s chances for certain diseases, there is a time factor. Comparing health and environmental data from the same year and geographical area intuitively makes sense, but it does not consider the environment in which the people were over time prior to getting the diseases.
+
+
+## 8. Future Work
++ Obtain objective health data
++ Only include only people who have been living in the same census tract for at least 10 years
++ Use more than multiple years of environmental data.
