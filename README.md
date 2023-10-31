@@ -31,11 +31,17 @@ The environmental indicators:
 + PWDIS = Indicator for major direct dischargers to water
 
 ## 3. EDA
+Histograms of the prevalence of each health outcome:
+
+<p align="center">
+  <img src="reports/for readme/hists.png" width="400">
+</p>
+
+Histograms showing the distribution of data for reach environmental factor before normalization (blue) and after normalization (red): 
 
 <p align="center">
   <img src="reports/for readme/hist.jpg" width="400">
   <img src="reports/for readme/hist1.jpg" width="400">
 </p>
  
- Histograms showing the distribution of data fo reach environmental factor before normalization (blue) and after normalization (red). 
-
+ 
