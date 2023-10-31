@@ -69,5 +69,5 @@ Below is a graph of the predicted values versus actual values for COPD using ran
 The table below shows the metrics for the best model for each health outcome.
 
 <p align="center">
-  <img src="reports/Capstone_Two_metrics.csv" width="400">
+  <img src="reports/figures/metrics.jpg" width="400">
 </p>
