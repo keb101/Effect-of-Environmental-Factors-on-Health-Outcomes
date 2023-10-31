@@ -32,5 +32,10 @@ The environmental indicators:
 
 ## 3. EDA
 
-
+<p align="center">
+  <img src="reports/for readme/hist.jpg" width="400">
+  <img src="reports/for readme/hist1.jpg" width="400">
+</p>
+ 
+ Histograms showing the distribution of data fo reach environmental factor before normalization (blue) and after normalization (red). 
 
