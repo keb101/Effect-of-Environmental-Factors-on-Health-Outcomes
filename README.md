@@ -37,11 +37,37 @@ Histograms of the prevalence of each health outcome:
   <img src="reports/for readme/hists.png" width="400">
 </p>
 
-Histograms showing the distribution of data for reach environmental factor before normalization (blue) and after normalization (red): 
+ ## 4. Preprocessing
+
+ The decision tree ensemble methods do not need data to be normalized, but SVM does. Below are histograms showing the distribution of data for reach environmental factor before normalization (blue) and after normalization (red): 
 
 <p align="center">
   <img src="reports/for readme/hist.jpg" width="400">
   <img src="reports/for readme/hist1.jpg" width="400">
 </p>
- 
- 
+
+## 5. Modeling
+
+The following models were used to predict each health outcome based on the environmental factors.
++ Random forest
++ Adaptive boosting
++ Gradient boosting
++ Extreme gradient boosting
++ Light gradient boosting machine
++ Support vector Machine
+
+Hyperparameters were optimized using randomized and Bayesian searching.
+
+Below is a graph of the predicted values versus actual values for COPD using random forest with hyperameters tuned with a randomized search.
+
+<p align="center">
+  <img src="reports/figures/COPD_graph_best_model.png" width="500">
+</p>
+
+## 6. Metrics
+
+The table below shows the metrics for the best model for each health outcome.
+
+<p align="center">
+  <img src="reports/Capstone_Two_metrics.csv" width="400">
+</p>
