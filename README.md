@@ -84,4 +84,4 @@ Likely reasons:
 ## 8. Future Work
 + Obtain objective health data
 + Only include only people who have been living in the same census tract for at least 10 years
-+ Use more than multiple years of environmental data.
++ Use multiple years of environmental data.
