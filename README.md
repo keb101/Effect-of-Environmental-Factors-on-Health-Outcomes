@@ -34,7 +34,7 @@ The environmental indicators:
 Histograms of the prevalence of each health outcome:
 
 <p align="center">
-  <img src="reports/for readme/hists.png" width="400">
+  <img src="reports/figures/for readme/hists.png" width="400">
 </p>
 
  ## 4. Preprocessing
@@ -42,8 +42,8 @@ Histograms of the prevalence of each health outcome:
  The decision tree ensemble methods do not need data to be normalized, but SVM does. Below are histograms showing the distribution of data for reach environmental factor before normalization (blue) and after normalization (red): 
 
 <p align="center">
-  <img src="reports/for readme/hist.jpg" width="400">
-  <img src="reports/for readme/hist1.jpg" width="400">
+  <img src="reports/figures/for readme/hist.jpg" width="400">
+  <img src="reports/figures/for readme/hist1.jpg" width="400">
 </p>
 
 ## 5. Modeling
@@ -73,10 +73,9 @@ The table below shows the metrics for the best model for each health outcome.
 </p>
 
 
-## 7. Conclusion
-None of the models used in this research were good predictors of any of the health outcomes.
+## 7. Insights
 
-Likely reasons:
+Likely reasons that none of the models used in this research were good predictors of any of the health outcomes:
 + The health outcome data used were self-reported.
 + While certain environmental factors are known to increase one’s chances for certain diseases, there is a time factor. Comparing health and environmental data from the same year and geographical area intuitively makes sense, but it does not consider the environment in which the people were over time prior to getting the diseases.
 
